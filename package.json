@@ -1,7 +1,7 @@
 {
   "name": "dealme",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,13 +9,21 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@supabase/supabase-js": "*",
+    "@tanstack/react-query": "*",
     "expo": "~54.0.33",
+    "expo-router": "*",
     "expo-status-bar": "~3.0.9",
+    "nativewind": "*",
     "react": "19.1.0",
-    "react-native": "0.81.5"
+    "react-hook-form": "*",
+    "react-native": "0.81.5",
+    "zod": "*",
+    "zustand": "*"
   },
   "devDependencies": {
     "@types/react": "~19.1.0",
+    "tailwindcss": "*",
     "typescript": "~5.9.2"
   },
   "private": true
